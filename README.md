@@ -14,7 +14,7 @@ The goal of my final year project was to determine the best fitting simple stell
 
 The results of this project found that the best fitting SSP has a solar-like \[α/Fe\] ratio, an age of 5 Gyrs and a metallicity of +0.4 dex. However, the results also showed that overall the SSPs do not match the target galaxy.
 
-<h3 align=center> Best fitting SSP </h3>
+<h4 align=center> Best fitting SSP </h4>
 
 ![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/aFep00_best_fit.png?token=GHSAT0AAAAAAB3LBTSZFVLADEDK45353VJSY4KU5FQ)
 
