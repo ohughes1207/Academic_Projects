@@ -10,7 +10,7 @@ This repository contains my academic projects from UCLan.
 
 ## 2022 sMILES Masters Project
 
-The goal of this project was to determine the best fitting simple stellar population (SSP) from the sMILES spectral library to the galaxy GAMA422436. This was acheived by processing both the data from the sMILES library and GAMA422436, then determining the reduced chi-squared for each SSP to then find the best fitting SSP to the galaxy.
+The goal of my final year project was to determine the best fitting simple stellar population (SSP) from the sMILES spectral library to the galaxy GAMA422436. This was acheived by processing both the data from the sMILES library and GAMA422436, then determining the reduced chi-squared for each SSP to then find the best fitting SSP to the galaxy.
 
 The results of this project found that the best fitting SSP has a solar-like \[Î±/Fe\] ratio, an age of 5 Gyrs and a metallicity of +0.4 dex. However, the results also showed that overall the SSPs do not match the target galaxy.
 
@@ -18,7 +18,5 @@ The results of this project found that the best fitting SSP has a solar-like \[Î
 
 ![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/aFep00_best_fit.png?token=GHSAT0AAAAAAB3LBTSZFVLADEDK45353VJSY4KU5FQ)
 
-
-This was the final year project I did for my master's degree.
 
 ## 2021 FERRE Undergraduate Project
