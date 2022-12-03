@@ -6,7 +6,7 @@
 
 I was introduced to programming during my 1st year at UCLan where we were taught the fundamentals of Python, from printing "Hello, World" to loading data from .txt and .dat files for data analysis. Fundamentals were further developed throughout the 2nd year and was expanded upon with creating our own modules and functions, and being introduced to the scientific libraries for Python such as Scipy, numpy and matplotlib and more. I found that I wanted to pursure a career and delve deeper into programming after finding my Python assignments and projects throughout my time at UCLan fulfilling.
 
-This repository contains my academic projects from UCLan.
+This repository contains my academic projects at UCLan.
 
 ## 2022 sMILES Masters Project
 
