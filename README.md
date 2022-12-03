@@ -12,7 +12,7 @@ This repository contains my academic projects from my time at UCLan.
 
 The goal of my final year project was to determine the best fitting simple stellar population (SSP) from the [sMILES spectral library](https://arxiv.org/abs/2104.04822) to the galaxy GAMA422436. This was acheived by processing both the data from the sMILES library and GAMA422436, then determining the reduced chi-squared for each SSP to then find the best fitting SSP to the galaxy.
 
-The results of this project found that the best fitting SSP has a solar-like \[α/Fe\] ratio, an age of 5 Gyrs and a metallicity of +0.4 dex. However, the results also showed that overall the SSPs do not match the target galaxy. The spectra for the best fitting SSP is shown in the figure below along with the spectra of the target galaxy and their residuals.
+The results of this project found that the best fitting SSP has a solar-like \[α/Fe\] ratio, an age of 5 Gyrs and a metallicity of +0.4 dex. However, the results also showed that overall the SSPs do not match the target galaxy. The spectra for the best fitting SSP is shown in the figure below along with the spectra of the target galaxy and their residuals on an offset.
 
 <h4 align=center> Best fitting SSP </h4>
 
