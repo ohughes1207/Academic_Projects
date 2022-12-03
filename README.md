@@ -26,4 +26,4 @@ From the results of this project it was shown that the best fit is achieved when
 
 <h4 align=center> Reduced χ2 for each configuration </h4>
 
-![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/ncont%20param%20table.PNG)
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/ncont%20param%20table.PNG?token=GHSAT0AAAAAAB3LBTSYYVAPBM45V4GXYIA2Y4K33RQ)
