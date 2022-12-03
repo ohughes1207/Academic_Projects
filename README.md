@@ -23,3 +23,7 @@ The results of this project found that the best fitting SSP has a solar-like \[�
 The goal of my third year project was to determine the atmospheric properties of chemically peculiar Ap stars by fitting models to their spectra. This was accomplished with the [FERRE](https://github.com/callendeprieto/ferre) data analysis software, this software matches models to data. Which required me to learn how to configure the software and make diagnostic runs to further understand how to operate FERRE. The outputs from FERRE were imported into Excel to be analysed and plotted to identify any poorly fitted spectra. Many different configurations for FERRE were tested to determine which configuration gave the best results, this was determined by the average reduced χ2 and considering how many spectra were poorly fitted.
 
 From the results of this project it was shown that the best fit is achieved when FERRE is configured to fit the models to the data with the effective temperature, surface gravity and metallicity using a 4th order polynomial.
+
+<h4 align=center> Reduced χ2 for each configuration </h4>
+
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/aFep00_best_fit.png)
