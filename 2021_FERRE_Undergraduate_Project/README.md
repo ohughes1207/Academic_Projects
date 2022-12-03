@@ -1,7 +1,9 @@
-# Academic Projects
+# 20212 FERRE Undergraduate Project
 
-## 2022 sMILES Masters Project
+## Introduction
 
+## Method
 
-## 2021 FERRE Undergraduate Project# Academic_Projects
-# Academic_Projects
+## Results
+
+## Discussion
