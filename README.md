@@ -16,6 +16,6 @@ The results of this project found that the best fitting SSP has a solar-like \[Î
 
 <h4 align=center> Best fitting SSP </h4>
 
-![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/aFep00_best_fit.png)
+![image](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/aFep00_best_fit.png)
 
 ## 2021 FERRE Undergraduate Project
