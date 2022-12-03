@@ -16,8 +16,7 @@ The results of this project found that the best fitting SSP has a solar-like \[Î
 
 <h4 align=center> Best fitting SSP </h4>
 
-![](https://raw.githubusercontent.com/darwin-a/PersonalProjects/master/Personal%20Programming%20Projects/Python/Data%20Science/eICU/Project%201/graphs/MORT.png)
-
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/aFep00_best_fit.png?token=GHSAT0AAAAAAB3LBTSZFVLADEDK45353VJSY4KU5FQ)
 
 
 This was the final year project I did for my master's degree.
