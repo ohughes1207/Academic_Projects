@@ -20,4 +20,4 @@ The results of this project found that the best fitting SSP has a solar-like \[Î
 
 ## 2021 FERRE Undergraduate Project
 
-The goal of my third year project was to.
+The goal of my third year project was to determine the atmospheric properties of chemically peculiar Ap stars by fitting models to their spectra. This was accomplished with the [FERRE](https://github.com/callendeprieto/ferre) data analysis software, this software matches matches models to data.
