@@ -14,7 +14,7 @@ The goal of this project was to determine the best fitting simple stellar popula
 
 The results of this project found that the best fitting SSP has a solar-like \[α/Fe\] ratio, an age of 5 Gyrs and a metallicity of +0.4 dex. However, the results also showed that overall the SSPs do not match the target galaxy.
 
-<h4 align=center> Mortality Predictions </h4>
+<h4 align=center> Best fitting SSP </h4>
 
 ![](https://raw.githubusercontent.com/darwin-a/PersonalProjects/master/Personal%20Programming%20Projects/Python/Data%20Science/eICU/Project%201/graphs/MORT.png)
 
