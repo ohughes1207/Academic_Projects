@@ -8,7 +8,7 @@ The sMILES library was created with improvements made on the MILES library. sMIL
 
 <h4 align=center> Image of the target galaxy G422436 </h4>
 
-<img align="center" src="https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/GAMA422436.PNG">
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/GAMA422436.PNG)
 
 This is achieved by blurring and rebinning the sMILES SSPs to the same binning as the SALT data and then continuum normalizing both the models and data so a chi-squared test can be performed to determine the best fit. A software called pPXF created by Michele Cappellari can extract the stellar kinemtic or gas kinematics and stellar population of spectra with absorption lines by full spectrum fitting. This software then fits the stellar and gas kinematics however this is not for SSPs and so the creation of this software serves as a stepping stone for future works in the development of such a tool.
 
