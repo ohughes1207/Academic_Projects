@@ -40,6 +40,16 @@ Diagnostic plots were made to ensure that the processes were performing as expec
 
 </div>
 
+The described loop for the SSP processing can be summarized with the block diagram shown below
+
+<h4 align=center> SSP processing loop block diagram </h4>
+
+<div align="center">
+  
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/loop.PNG)
+
+</div>
+
 ## Results
 
 
