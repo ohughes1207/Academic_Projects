@@ -24,6 +24,8 @@ The SSPs are blurred using the ``gaussian_filter1d`` function from ``scipy``, th
 The SSPs are rebinned to the same binning as the SALT data using ``SpectRes`` and then continuum normalized using the same method as for the SALT data. The reduced chi-squared test is then performed with functions from the fit_tools local module. Then reduced chi-squared, age, metallicity, and filename for the SSP is then store into their own respective list. This process is repeated for all SSPs in each abundance family resulting in a list containing 5 nested lists, one for each abundance family, and each nested list contains 4 nested lists, one for each of the stored parameters from the data processing.
 Diagnostic plots were made to ensure that the processes were performing as expected and the Chebyshev polynomial order was varied to determine which polynomial order gives the best result and was found that a Polynomial order of 6 gives the best result.
 
+The effects of the blurring and rebinning can be seen in the diagnostic plots shown below.
+
 <h4 align=center> Blurring diagnostic plot </h4>
 
 <div align="center">
