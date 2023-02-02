@@ -7,6 +7,7 @@ Data Analysis software written in Python to determine the best fitting SSPs (Sim
 The sMILES library was created with improvements made on the MILES library. sMILES improves on the MILES library by using predictions of abundance patterns to differentially correct the MILES library, creating the sMILES library. The target galaxy GAMA422436 was detected in the Herschel-ATLAS survey and is in the GAMA survey, it is a dusty early type galaxy and classified as an Sa type galaxy by NASA/IPAC Extragalactic Database. This software aims to find the best fitting parameters for SSPs from the sMILES library to the observational data of GAMA422436.
 
 <h4 align=center> Image of the target galaxy G422436 </h4>
+
 ![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/GAMA422436.PNG)
 
 This is achieved by blurring and rebinning the sMILES SSPs to the same binning as the SALT data and then continuum normalizing both the models and data so a chi-squared test can be performed to determine the best fit. A software called pPXF created by Michele Cappellari can extract the stellar kinemtic or gas kinematics and stellar population of spectra with absorption lines by full spectrum fitting. This software then fits the stellar and gas kinematics however this is not for SSPs and so the creation of this software serves as a stepping stone for future works in the development of such a tool.
