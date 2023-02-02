@@ -6,7 +6,7 @@ Data Analysis software written in Python to determine the best fitting SSPs (Sim
 
 The sMILES library was created with improvements made on the MILES library. sMILES improves on the MILES library by using predictions of abundance patterns to differentially correct the MILES library, creating the sMILES library. The target galaxy GAMA422436 was detected in the Herschel-ATLAS survey and is in the GAMA survey, it is a dusty early type galaxy and classified as an Sa type galaxy by NASA/IPAC Extragalactic Database. This software aims to find the best fitting parameters for SSPs from the sMILES library to the observational data of GAMA422436.
 
-<h4 align=center> Image of the target galaxy G422436 </h4>
+<h4 align=center> Image of the target galaxy </h4>
 
 <div align="center">
   
