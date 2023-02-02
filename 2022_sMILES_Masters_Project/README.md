@@ -28,7 +28,7 @@ Diagnostic plots were made to ensure that the processes were performing as expec
 
 <div align="center">
   
-![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/blur_diagnostic.PNG)
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/Blurring_diagnostic.png)
 
 </div>
 
@@ -36,7 +36,7 @@ Diagnostic plots were made to ensure that the processes were performing as expec
 
 <div align="center">
   
-![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/rebin_diagnostic.PNG)
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/Rebinning_diagnostic.png)
 
 </div>
 
