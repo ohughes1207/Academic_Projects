@@ -19,7 +19,7 @@ This is achieved by blurring and rebinning the sMILES SSPs to the same binning a
 
 ## Method
 
-
+This software was developed using Spyder Pyton 3.9 on a Windows 10 PC and Python 3.7 on the UCLan Starlink network which was accessed from a Linux OS machine at UCLan. Both work spaces had the modules specutils, SpectRes, astropy, scipy, glob, numpy, matplotlib and the local module that was made with this software, fit_tools.py. The observational data was read in using astropy and the SSPs were read in by using glob to find all files following the sMILES library naming convention and using a for loop to read in a single SSP with a function from fit_tools to extract the data into a list and perform the analysis on each SSP individually. The SSPs were blurred using the gaussian_filter1d function from scipy, the function blurs an input flux by an input sigma value. The input sigma value was calculated as the sigma difference in pixels before any loops. This follows a similar method used in the Sauron kinematics example from the pPXF software.
 
 ## Results
 
