@@ -22,7 +22,7 @@ This is achieved by blurring and rebinning the sMILES SSPs to the same binning a
 This software was developed using Spyder Python 3.9 on a Windows 10 PC and Python 3.7 on the UCLan Starlink network which was accessed from a Linux OS machine at UCLan. Both work spaces had the modules ``specutils``, ``SpectRes``, ``astropy``, ``scipy``, ``glob``, ``numpy``, ``matplotlib`` and the local module that was made with this software, ``fit_tools``. The observational data was read in using ``astropy`` as the data is in the format of a FITS file and was then continuum normalized with a Chebyshev polynomial using the ``fit_continuum`` function from ``specutils``. To begin processing the SSPs, the SSPs were read in by using ``glob`` to find all SSP files that do not contain the variance following the sMILES library naming convention and using a for loop to read in the data and error for a single SSP with a function from ``fit_tools`` to extract the data into a list and perform the analysis on each SSP individually.
 The SSPs are blurred using the ``gaussian_filter1d`` function from ``scipy``, the function blurs an input flux by an input sigma value. The input sigma value was calculated as the sigma difference in pixels before any loops. This follows a similar method used in the Sauron kinematics example from the ``pPXF`` software.
 The SSPs are rebinned to the same binning as the SALT data using ``SpectRes`` and then continuum normalized using the same method as for the SALT data. The reduced chi-squared test is then performed with functions from the fit_tools local module. Then reduced chi-squared, age, metallicity, and filename for the SSP is then store into their own respective list. This process is repeated for all SSPs in each abundance family resulting in a list containing 5 nested lists, one for each abundance family, and each nested list contains 4 nested lists, one for each of the stored parameters from the data processing.
-Diagnostic plots were made to ensure that the processes were performing as expected and the Chebyshev polynomial order was varied to determine which polynomial order gives the best result and was found that a Polynomial order of 6 gives the best result.
+Diagnostic plots were made to ensure that the processes were performing as expected and the Chebyshev polynomial order was varied to determine which polynomial order gives the best result and was found that a Polynomial order of 6 gives the best result. The software also applies a mask to the spectra to remove some edge effects from continuum normalization.
 
 The effects of the blurring and rebinning can be seen in the diagnostic plots shown below.
 
@@ -42,6 +42,17 @@ The effects of the blurring and rebinning can be seen in the diagnostic plots sh
 
 </div>
 
+Edge effects from continuum normalization as sen in the plot.
+
+<h4 align=center> Applied mask </h4>
+
+<div align="center">
+  
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/mask.PNG)
+
+</div>
+
+
 The described loop for the SSP processing can be summarized with the block diagram shown below
 
 <h4 align=center> SSP processing loop block diagram </h4>
@@ -52,10 +63,29 @@ The described loop for the SSP processing can be summarized with the block diagr
 
 </div>
 
+
 ## Results
 
+It was found that the best fitting SSPs have a solar-like abundance.
 
+<h4 align=center> 3d plot showing trends in reduced chi-squared as Age and Metallicity are varied for solar-like abundance SSPs </h4>
+
+<div align="center">
+  
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/3d_solar.PNG)
+
+</div>
+
+
+
+<h4 align=center> Best fitting SSP </h4>
+
+<div align="center">
+  
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/best_SSP.PNG)
+
+</div>
 
 ## Discussion
 
-
+The 3d-plots showing the trends in reduced chi-squared demonstrate the Age-metallicity degeneracy where it is difficult to differentiate old and metal poor galaxies from young, metal rich galaxies. None of the SSPs are well fitted to the target galaxy however the best fitted SSP has a reduced chi-squared of 7.13 with an age and metallicity of 5 Gyrs and +0.4 respectively and solar-like [α/Fe] abundance. The age-metallicity degeneracy is also demonstrated in the best fitted SSP with a solar-like [α/Fe] abundance and best fitted SSP with [α/Fe]=+0.2 as the solar-like SSP is a young metal rich SSP while the SSP with [α/Fe]=+0.2 is an old metal poor SSP, showing that a best fitting SSP to the target galaxy can be a young metal rich SSP or an old metal poor SSP.
