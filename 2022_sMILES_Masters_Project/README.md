@@ -42,7 +42,7 @@ The effects of the blurring and rebinning can be seen in the diagnostic plots sh
 
 </div>
 
-Edge effects from continuum normalization as sen in the plot.
+Edge effects from continuum normalization as seen in the plot.
 
 <h4 align=center> Applied mask </h4>
 
