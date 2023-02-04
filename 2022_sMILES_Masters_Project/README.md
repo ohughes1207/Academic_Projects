@@ -48,7 +48,7 @@ Edge effects from continuum normalization as sen in the plot.
 
 <div align="center">
   
-![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/mask.PNG)
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/mask.png)
 
 </div>
 
@@ -72,7 +72,7 @@ It was found that the best fitting SSPs have a solar-like abundance.
 
 <div align="center">
   
-![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/3d_solar.PNG)
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/3d_solar.png)
 
 </div>
 
@@ -82,7 +82,7 @@ It was found that the best fitting SSPs have a solar-like abundance.
 
 <div align="center">
   
-![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/best_SSP.PNG)
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/best_SSP.png)
 
 </div>
 
