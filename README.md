@@ -1,6 +1,6 @@
 # Academic Projects
 
-- [My Personal Projects](https://github.com/ohughes1207/Personal_Projects)
+<!--- - [My Personal Projects](https://github.com/ohughes1207/Personal_Projects) --->
 
 ## Introduction
 
