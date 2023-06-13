@@ -14,16 +14,14 @@ These particular stars have unusual abundances of Si, Cr, and other rare earth m
 
 PuTTY and Xming were used in conjunction throughout this project to access the UCLan Starlink network. Through this network is how the data was accessed and the FERRE software was ran. The FERRE documentation was referred to for research in order to understand how to operate the software. Prior to running FERRE for all the data, FERRE was ran on data for a single spectra to perform diagnostic tests.
 
-Before running FERRE, the data were converted into the format required by FERRE using software written in FORTRAN90. This software outputs 3 files which became the inputs for FERRE.
+Before running FERRE, the data were converted into the format required by FERRE using software written in FORTRAN90. This software outputs 3 files which became the inputs for FERRE. The initial diagnostic tests with FERRE were performed on a singular spectrum to fit for effective temperature and surface gravity, the spectrum used in these diagnostic tests was chosen at random. The FERRE documentation specified that the Signal-to-Noise ratio (SNR) is given as the average SNR however after manually calculating this it was found that this information in the FERRE documentation is incorrect and the SNR is instead given as the median of the SNR. Following this, the reduced χ2 was calculated manually also to verify that this is correct and was found to be in agreement with the FERRE documentation.
 
-The initial diagnostic tests with FERRE were performed on a singular spectrum to fit for effective temperature and surface gravity, the spectrum used in these diagnostic tests was chosen at random. The FERRE documentation specified that the Signal-to-Noise ratio (SNR) is given as the average SNR however after manually calculating this it was found that this information in the FERRE documentation is incorrect and the SNR is instead given as the median of the SNR. Following this, the reduced Chi-squared was calculated manually also to verify that this is correct and was found to be in agreement with the FERRE documentation.
+After the diagnostic tests on the singular spectrum were completed, more diagnostic tests were performed on multiple spectra. 5 spectra were chosen at random to be used for these diagnostics. FERRE was ran to fit for effective temperature, surface gravity and metallicity for these 5 spectra. Following this, FERRE was ran to fit only for effective temperature and surface gravity with a polynomial order of 3 on the 5 spectra. Due to the format of the data outputted by FERRE a Python script was written to extract the data of a single spectrum which is specified by the user. With the extracted data, comparisons can be made to see the effect that changing the polynomial order and fitted parameters has on the results. More diagnostic tests to fit for different parameters with varying order of polynomials were performed to compare the results and further investigate the differences that fitting for different parameters with varying order of polynomials has on the result.
 
-After the diagnostic tests on the singular spectrum were completed, more diagnostic tests were performed on multiple spectra. 5 spectra were chosen at random to be used for these diagnostics. FERRE was ran to fit for effective temperature, surface gravity and metallicity for these 5 spectra. Following this, FERRE was ran to fit only for effective temperature and surface gravity with a polynomial order of 3 on the 5 spectra.
-
-Due to the format of the data outputted by FERRE a Python script was written to extract the data of a single spectrum which is specified by the user. With the extracted data, comparisons can be made to see the effect that changing the polynomial order and fitted parameters has on the results.
-
-More diagnostic tests to fit for different parameters with varying order of polynomials were performed to compare the results and further investigate the differences that fitting for different parameters with varying order of polynomials has on the result.
+The report provided in this repository provides more details on the methodology throughout this project.
 
 ## Results
+
+### Effect of polynomial order on the fits
 
 ## Discussion
