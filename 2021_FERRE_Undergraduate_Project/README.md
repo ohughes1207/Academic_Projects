@@ -30,7 +30,7 @@ The resulting plots from the methodology were compared to see the effect of chan
 
 <div align="center">
   
-![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/TgZ_3+4.png)
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/TgZ_3+4.png)
 
 </div>
 
@@ -50,7 +50,7 @@ The resulting plots from the methodology were compared to see the effect of chan
 
 <div align="center">
   
-![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/TgZA_3+4.png)
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/TgZA_3+4.png)
 
 </div>
 
