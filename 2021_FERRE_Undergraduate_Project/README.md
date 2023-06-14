@@ -35,7 +35,7 @@ The resulting plots from the methodology were compared to see the effect of chan
 </div>
 
 
-A Kiel diagram displaying both cases of NCONT were plotted together on the same plot as seen in Fig.21 to determine the difference in how NCONT=4 differs from NCONT=3 and as seen in Fig.21 the data points shift to the right, away from the upper effective temperature limit in the case of NCONT=4 from the NCONT=3 case.For this reason NCONT=4 is the preferred order of NCONT as there are more stars that are within the valid region of the model grid. Also the average χ2 is lower in the case of NCONT=4, supporting the decision that NCONT=4 is the preferred value of NCONT.
+A Kiel diagram displaying both cases of NCONT were plotted together on the same plot as seen in the plot shown above to determine the difference in how NCONT=4 differs from NCONT=3 and as seen in the plot the data points shift to the right, away from the upper effective temperature limit in the case of NCONT=4 from the NCONT=3 case.For this reason NCONT=4 is the preferred order of NCONT as there are more stars that are within the valid region of the model grid. Also the average χ2 is lower in the case of NCONT=4, supporting the decision that NCONT=4 is the preferred value of NCONT.
 
 <h4 align=center> Kiel diagram of NCONT=2 and NCONT=4 when fitted for TgZ </h4>
 
@@ -46,7 +46,7 @@ A Kiel diagram displaying both cases of NCONT were plotted together on the same 
 </div>
 
 
-The plot in Fig.22 shows how NCONT=4 compares to NCONT=2 to investigate if NCONT=2 provides a better fit than NCONT=4, Fig.22 illustrates that NCONT=4 still provides the better fit as it’s data points are further away from the boundaries with more data points being within the valid region.
+The plot above shows how NCONT=4 compares to NCONT=2 to investigate if NCONT=2 provides a better fit than NCONT=4. This plot illustrates that NCONT=4 still provides the better fit as it’s data points are further away from the boundaries with more data points being within the valid region.
 
 
 <h4 align=center> Kiel diagram of NCONT=3 and NCONT=4 when fitted for TgZA (effective temperature, surface gravity, metallicity and alpha elements) </h4>
@@ -58,7 +58,7 @@ The plot in Fig.22 shows how NCONT=4 compares to NCONT=2 to investigate if NCONT
 </div>
 
 
-The plot in Fig.23 illustrates how varying NCONT=3 and NCONT=4 in the case of the TgZA fit moves the data points around the plot. Fig.23 shows that NCONT=3 gives the better fit in this case as there are less data points against the boundaries and thus more data points in the valid region.
+The plot shown above illustrates how varying NCONT=3 and NCONT=4 in the case of the TgZA fit moves the data points around the plot. This shows that NCONT=3 gives the better fit in this case as there are less data points against the boundaries and thus more data points in the valid region.
 
 
 
@@ -116,7 +116,7 @@ The figure shown illustrates that the TgZ fit provides the better fit than the T
 
 </div>
 
-The figure shown above also illustrates that the TgZ fit provides the better fit than the Tg fit in the case of NCONT=4 as there are less data points against the boundaries, both Fig.31 and Fig.32 show a line of Tg fitted data points that are against the upper temperature boundary, this supports that the TgZ fit is a more preferable fit than the Tg fit for this data.
+The figure shown above also illustrates that the TgZ fit provides the better fit than the Tg fit in the case of NCONT=4 as there are less data points against the boundaries, both of the Kiel diagrams for NCONT=4 and NCONT=3 show a line of Tg fitted data points that are against the upper temperature boundary, this supports that the TgZ fit is a more preferable fit than the Tg fit for this data.
 
 
 
