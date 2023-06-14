@@ -35,6 +35,8 @@ The resulting plots from the methodology were compared to see the effect of chan
 </div>
 
 
+A Kiel diagram displaying both cases of NCONT were plotted together on the same plot as seen in Fig.21 to determine the difference in how NCONT=4 differs from NCONT=3 and as seen in Fig.21 the data points shift to the right, away from the upper effective temperature limit in the case of NCONT=4 from the NCONT=3 case.For this reason NCONT=4 is the preferred order of NCONT as there are more stars that are within the valid region of the model grid. Also the average χ2 is lower in the case of NCONT=4, supporting the decision that NCONT=4 is the preferred value of NCONT.
+
 <h4 align=center> Kiel diagram of NCONT=2 and NCONT=4 when fitted for TgZ </h4>
 
 <div align="center">
@@ -44,6 +46,7 @@ The resulting plots from the methodology were compared to see the effect of chan
 </div>
 
 
+The plot in Fig.22 shows how NCONT=4 compares to NCONT=2 to investigate if NCONT=2 provides a better fit than NCONT=4, Fig.22 illustrates that NCONT=4 still provides the better fit as it’s data points are further away from the boundaries with more data points being within the valid region.
 
 
 <h4 align=center> Kiel diagram of NCONT=3 and NCONT=4 when fitted for TgZA (effective temperature, surface gravity, metallicity and alpha elements) </h4>
@@ -55,4 +58,91 @@ The resulting plots from the methodology were compared to see the effect of chan
 </div>
 
 
+The plot in Fig.23 illustrates how varying NCONT=3 and NCONT=4 in the case of the TgZA fit moves the data points around the plot. Fig.23 shows that NCONT=3 gives the better fit in this case as there are less data points against the boundaries and thus more data points in the valid region.
+
+
+
+### Effect of polynomial order on the NORMFIT/FIT plots
+
+<h4 align=center> Plot of continuum normalized flux divided by the models of TgZ NCONT=2 fit for the spectrum TIC_073765625_spectrum_B_8566.492492123507_rest </h4>
+
+<div align="center">
+
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/Spectra2_TgZ_NCONT2_NORMFITFIT.png)
+
+</div>
+
+
+
+<h4 align=center> Plot of continuum normalized flux divided by the models of TgZ NCONT=3 fit for the spectrum TIC_073765625_spectrum_B_8566.492492123507_rest </h4>
+
+<div align="center">
+
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/Spectra2_TgZ_NCONT3_NORMFITFIT.png)
+
+</div>
+
+
+
+<h4 align=center> Plot of continuum normalized flux divided by the models of TgZ NCONT=4 fit for the spectrum TIC_073765625_spectrum_B_8566.492492123507_rest </h4>
+
+<div align="center">
+
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/Spectra2_TgZ_NCONT4_NORMFITFIT.png)
+
+</div>
+
+
+Comparing the 3 figures shown above shows that neither of the fits are better than the rest and the CaII K and H-ϵ lines in particular are poorly fitted in all cases of NCONT for this spectra.
+
+
+### Effect of fitted parameters on the fits
+
+<h4 align=center> Kiel Diagram for both cases of Tg and TgZ fits with NCONT=3 </h4>
+
+<div align="center">
+
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/3_Tg_vs_TgZ.png)
+
+</div>
+
+The figure shown illustrates that the TgZ fit provides the better fit than the Tg fit in the case of NCONT=3 as there are less data points against the boundaries.
+
+<h4 align=center> Kiel Diagram for both cases of Tg and TgZ fits with NCONT=3 </h4>
+
+<div align="center">
+
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/4_Tg_vs_TgZ.png)
+
+</div>
+
+The figure shown above also illustrates that the TgZ fit provides the better fit than the Tg fit in the case of NCONT=4 as there are less data points against the boundaries, both Fig.31 and Fig.32 show a line of Tg fitted data points that are against the upper temperature boundary, this supports that the TgZ fit is a more preferable fit than the Tg fit for this data.
+
+
+
+<h4 align=center> Kiel Diagram for both cases of TgZA and TgZ fits with NCONT=4 </h4>
+
+<div align="center">
+
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/4_TgZA_vs_TgZ.png)
+
+</div>
+
+Because of the vertical line of data points from the TgZA at the upper temperature limit in the figure shown above, the TgZA fit is a worse fit in the case of NCONT=4 as this indicates there are more data points against the upper temperature limi
+
 ## Discussion
+
+
+<h4 align=center> Table of the reduced χ2 and number of points against the boundaries as NCONT and fitted parameters change </h4>
+
+<div align="center">
+
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/4_TgZA_vs_TgZ.png)
+
+</div>
+
+By comparing the average reduced χ2 and number of points against the boundaries in each fit in the table shown above, the TgZ fit with NCONT=4 is where the best fit is achieved. This fit has the least number of data points against the boundaries and only 0.2 average reduced χ2 higher than the TgZA with NCONT=3 fit, which has the lowest average χ2. A case for the TgZA fit with NCONT=3 being the best fit could be made as this fit has the lowest average reduced χ2, however this is only 0.2 lower than the average χ2 in the TgZ with NCONT=3 fit. The results also shows that the TgZA fit could achieve a better fit as these match the models better than the TgZ fits. The results also show that as fitted parameters increase in the NCONT=3 case, the average reduced χ2 and number of points against the boundaries decrease, indicating that if one were to be able to fit with NCONT=5 then these would decrease even further potentially giving a better fit.
+
+## Conclusion
+
+The results of this project show that the best fit of the data to the models is achieved when fitting for effective temperature, surface gravity and metallicity and continuum normalizing with a polynomial with an order of four. There is potential for a better fit to be achieved when fitting for effective temperature, surface gravity, metallicity and α-elements and continuum normalizing with a polynomial with an order of three however further investigations must be done into this. The errors in the effective temperature, log(g),metallicity and α-elements are estimated to be ±100K, ±0.1, ±0.2 dex and ±0.2 dex respectively by inspection of the differences in parameters for NCONT=3 and NCONT=4.
