@@ -108,7 +108,7 @@ Comparing the 3 figures shown above shows that neither of the fits are better th
 
 The figure shown illustrates that the TgZ fit provides the better fit than the Tg fit in the case of NCONT=3 as there are less data points against the boundaries.
 
-<h4 align=center> Kiel Diagram for both cases of Tg and TgZ fits with NCONT=3 </h4>
+<h4 align=center> Kiel Diagram for both cases of Tg and TgZ fits with NCONT=4 </h4>
 
 <div align="center">
 
@@ -137,11 +137,12 @@ Because of the vertical line of data points from the TgZA at the upper temperatu
 
 <div align="center">
 
-![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/4_TgZA_vs_TgZ.png)
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/ncont_param_table.png)
 
 </div>
 
-By comparing the average reduced χ2 and number of points against the boundaries in each fit in the table shown above, the TgZ fit with NCONT=4 is where the best fit is achieved. This fit has the least number of data points against the boundaries and only 0.2 average reduced χ2 higher than the TgZA with NCONT=3 fit, which has the lowest average χ2. A case for the TgZA fit with NCONT=3 being the best fit could be made as this fit has the lowest average reduced χ2, however this is only 0.2 lower than the average χ2 in the TgZ with NCONT=3 fit. The results also shows that the TgZA fit could achieve a better fit as these match the models better than the TgZ fits. The results also show that as fitted parameters increase in the NCONT=3 case, the average reduced χ2 and number of points against the boundaries decrease, indicating that if one were to be able to fit with NCONT=5 then these would decrease even further potentially giving a better fit.
+By comparing the average reduced χ2 and number of points against the boundaries in each fit in the table shown above, the TgZ fit with NCONT=4 is where the best fit is achieved. This fit has the least number of data points against the boundaries and only 0.2 average reduced χ2 higher than the TgZA with NCONT=3 fit, which has the lowest average χ2. A case for the TgZA fit with NCONT=3 being the best fit could be made as this fit has the lowest average reduced χ2, however this is only 0.2 lower than the average χ2 in the TgZ with NCONT=3 fit. 
+The results also shows that the TgZA fit could achieve a better fit as these match the models better than the TgZ fits. The results also show that as fitted parameters increase in the NCONT=3 case, the average reduced χ2 and number of points against the boundaries decrease, indicating that if one were to be able to fit with NCONT=5 then these would decrease even further potentially giving a better fit.
 
 ## Conclusion
 
