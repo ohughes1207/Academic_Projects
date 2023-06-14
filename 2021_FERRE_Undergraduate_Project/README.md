@@ -22,6 +22,37 @@ The report provided in this repository provides more details on the methodology 
 
 ## Results
 
+The resulting plots from the methodology were compared to see the effect of changing each parameter.
+
 ### Effect of polynomial order on the fits
+
+<h4 align=center> Kiel diagram of NCONT=3 and NCONT=4 when fitted for TgZ (effective temperature, surface gravity and metallicity) </h4>
+
+<div align="center">
+  
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/TgZ_3+4.png)
+
+</div>
+
+
+<h4 align=center> Kiel diagram of NCONT=2 and NCONT=4 when fitted for TgZ </h4>
+
+<div align="center">
+  
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/TgZ_2+4.png)
+
+</div>
+
+
+
+
+<h4 align=center> Kiel diagram of NCONT=3 and NCONT=4 when fitted for TgZA (effective temperature, surface gravity, metallicity and alpha elements) </h4>
+
+<div align="center">
+  
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2022_sMILES_Masters_Project/figs/TgZA_3+4.png)
+
+</div>
+
 
 ## Discussion
