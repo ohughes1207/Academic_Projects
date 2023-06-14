@@ -137,7 +137,7 @@ Because of the vertical line of data points from the TgZA at the upper temperatu
 
 <div align="center">
 
-![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/ncont_param_table.png)
+![](https://raw.githubusercontent.com/ohughes1207/Academic_Projects/main/2021_FERRE_Undergraduate_Project/figs/ncont_param_table.PNG)
 
 </div>
 
